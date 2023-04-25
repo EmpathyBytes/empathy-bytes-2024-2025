@@ -3,26 +3,28 @@ import Layout from "../components/layout";
 
 import Grid from '@mui/material/Unstable_Grid2';
 
-import "../styles/emergingtech.css"
+import MockUp from "../images/experiences/appMockUp.png"
+
+import "../styles/experiencesIndividual.css"
 import "../styles/all.css"
 
 function App() {
     return(
         <Layout>
-            <div className="full-container-emerging-tech">
+            <div className="full-container-experiences">
                 <Grid container spacing={2} className="">
-                    <div className="grid-margins-emerging-tech">
+                    <div className="grid-margins-experiences">
                         <Grid xs={12}>
-                            <h1 className="header-emerging-tech">The App Development Team</h1>
+                            <h1 className="header-experiences">The App Development Team</h1>
                         </Grid>
                     </div>
                 </Grid>
 
 
                 <Grid container spacing={0} className="bg-1">
-                    <div className="grid-margins-emerging-tech">
+                    <div className="grid-margins-experiences">
                         <Grid xs={10}>
-                            <h1 className="sub-header-emerging-tech">what we do</h1>
+                            <h1 className="sub-header-experiences">What We Do</h1>
                         </Grid>
 
                         <Grid xs={2}>
@@ -30,7 +32,7 @@ function App() {
                         </Grid>
 
                         <Grid xs={7}>
-                            <p className="paragraph-emerging-tech paragraph-intent-emerging-tech-left">
+                            <p className="paragraph-experiences paragraph-indent-experiences-left">
                                 Our team develops mobile applications to showcase our research and 
                                 explore empathy with Mixed Reality technologies.
                             </p>
@@ -42,39 +44,26 @@ function App() {
                     </div>
                 </Grid>
 
-                <Grid container spacing={0} className="">
-                    <div className="grid-margins-emerging-tech">
+                <Grid container spacing={2} className="">
 
-                        <Grid xs={12} className="right-align-emerging-tech">
-                            <h1 className="sub-header-emerging-tech">the empathy bytes mobile app</h1>
+                        <Grid xs={12} className="right-align-experiences">
+                            <div className="grid-margins-experiences">
+                                <h1 className="sub-header-experiences">The Empathy Bytes App</h1>
+                            </div>
                         </Grid>
 
 
-                        <Grid xs={12}>
-                            <p className="paragraph-emerging-tech paragraph-intent-emerging-tech-left">Empathy Bytes is developing a 
-                            mobile application to act as a portal showcasing our research on communities within Georgia Tech.
-                            </p>
+                        <Grid xs={6} container className="" alignItems="center" justifyContent="center">
+                            <div className="grid-margins-experiences">
+                                <p className="paragraph-experiences paragraph-indent-experiences-left">Empathy Bytes is developing a 
+                                mobile application to act as a portal showcasing our research on communities within Georgia Tech.</p>
+                            </div>
                         </Grid>
-                    </div>
-
-                </Grid>
-
-                <Grid container spacing={0} className="bg-1">
-                    <div className="grid-margins-emerging-tech">
-
-                        <Grid xs={12} className="right-align-emerging-tech">
-                            <h1 className="sub-header-emerging-tech">App Mock Ups</h1>
+                        <Grid xs={6} container className="" alignItems="center" justifyContent="center">
+                            <div className="grid-margins-experiences">
+                                <img src={MockUp}></img>
+                            </div>
                         </Grid>
-                    </div>
-
-                </Grid>
-                
-                <Grid container spacing={0} className="" alignItems="center" justifyContent="center" direction="column">
-                    <div className="grid-margins-emerging-tech">
-                        <Grid container xs={12}>
-                            <iframe src="https://youtube.com/embed/PGEr1T6ilTw?feature=share" title="App Redesign" width="640px" height="480px"></iframe>
-                        </Grid>
-                    </div>
 
                 </Grid>
             </div>
