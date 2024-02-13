@@ -60,6 +60,7 @@ function Newnav({ transparent }) {
                 <Link to={"/experiences"}>Experiences</Link>
                 <Link to={"/about"}>About</Link>
                 <Link to={"/contact"}>Contact</Link>
+                <Link to={"/practice"}>Practice</Link>
                 <button className="nav-btn nav-close-btn" onClick={showNavbar}>
                     <FaTimes/>
                 </button>
