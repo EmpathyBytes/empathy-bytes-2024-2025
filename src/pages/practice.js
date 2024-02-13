@@ -26,4 +26,10 @@ function PracticePage() {
   );
 }
 
+/* TODO 4.0: Run this code and check out the practice page to see your card in action! 
+- Open the terminal and run `npm run develop`
+- Open your browser and go to http://localhost:8000/practice
+- You should see your card on the page! If you don't, dm me on Discord and I'll help you out
+*/
+
 export default PracticePage;

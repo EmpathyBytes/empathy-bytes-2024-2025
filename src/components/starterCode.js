@@ -7,12 +7,13 @@ import React from "react";
 // 3. Put your name in the function name (i.e. yourNameCard)
 // 4. Add your own code to the function
 // 5. Add your component to the practice.js file
+// 6. Once you're done with TODO 1.0, go to practice.js and complete TODO 2.0 and TODO 3.0
 
 export default function yourNameCard() {
 
     return (
 
-        // Your code here . . .
+        // TODO 1.1: Add your own code here
         // I'm returning a div here because you need to return something, or else you'll get an error. 
         // You should replace this with your own code/delete the div when you're done
         // Visit https://mui.com/material-ui/all-components/ to see all the components you can use
