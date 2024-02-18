@@ -10,7 +10,7 @@ export default function JoshCard() {
 
     return (
 
-        <Card sx={{ maxWidth: 200 }}>
+        <Card sx={{ maxWidth: 190 }}>
             <CardActionArea href="https://www.youtube.com/shorts/9JnGuLUvE4A">
                 <CardMedia
                     component="img"
