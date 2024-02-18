@@ -2,6 +2,7 @@ import React from "react";
 import Layout from "../components/layout";
 import "../styles/practicePage.css";
 import JoshCard from "../components/joshCard";
+import JulianCard from "../components/julianCard";
 
 // TODO 2.0: Import your card component below using the same syntax as the JoshCard import
 
@@ -17,8 +18,8 @@ function PracticePage() {
             <JoshCard />
 
             {/* TODO 3.0: Add your card component below using the same syntax as the JoshCard component */}
-
-
+            
+            <JulianCard />
           </div>
         </main>
       </div>
