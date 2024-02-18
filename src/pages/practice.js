@@ -1,8 +1,12 @@
 import React from "react";
 import Layout from "../components/layout";
 import "../styles/practicePage.css";
-import JoshCard from "../components/JoshCard";
+import JoshCard from "../components/joshCard";
+import AmaraCard from "../components/amaraCard";
+import HebeCard from "../components/hebeCard";
+import JulianCard from "../components/julianCard";
 import RayannCard from "../components/rayannCard";
+
 // TODO 2.0: Import your card component below using the same syntax as the JoshCard import
 
 
@@ -15,11 +19,11 @@ function PracticePage() {
         <main>
           <div className="cards">
             <JoshCard />
+            <AmaraCard />
             <RayannCard />
-
             {/* TODO 3.0: Add your card component below using the same syntax as the JoshCard component */}
-
-
+            <HebeCard />            
+            <JulianCard />
           </div>
         </main>
       </div>
