@@ -2,10 +2,14 @@ import React from "react";
 import Layout from "../components/layout";
 import "../styles/practicePage.css";
 import JoshCard from "../components/joshCard";
+import AmaraCard from "../components/amaraCard";
+import HebeCard from "../components/hebeCard";
+import JulianCard from "../components/julianCard";
+import RayannCard from "../components/rayannCard";
 import HusnaCard from "../components/husnaCard";
 
 // TODO 2.0: Import your card component below using the same syntax as the JoshCard import
-
+import MackenzieCard from "../components/mackenzieCard";
 
 
 function PracticePage() {
@@ -16,10 +20,14 @@ function PracticePage() {
         <main>
           <div className="cards">
             <JoshCard />
+            <AmaraCard />
+            <RayannCard />
+            <HebeCard />            
+            <JulianCard />
+            <MackenzieCard />
             <HusnaCard />
             {/* TODO 3.0: Add your card component below using the same syntax as the JoshCard component */}
-
-
+          
           </div>
         </main>
       </div>
