@@ -8,7 +8,7 @@ import JulianCard from "../components/julianCard";
 import RayannCard from "../components/rayannCard";
 
 // TODO 2.0: Import your card component below using the same syntax as the JoshCard import
-
+import MackenzieCard from "../components/mackenzieCard";
 
 
 function PracticePage() {
@@ -21,9 +21,11 @@ function PracticePage() {
             <JoshCard />
             <AmaraCard />
             <RayannCard />
-            {/* TODO 3.0: Add your card component below using the same syntax as the JoshCard component */}
             <HebeCard />            
             <JulianCard />
+            <MackenzieCard />
+            {/* TODO 3.0: Add your card component below using the same syntax as the JoshCard component */}
+          
           </div>
         </main>
       </div>

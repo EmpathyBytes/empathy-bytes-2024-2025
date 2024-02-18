@@ -1,7 +1,7 @@
 // Standard import statement needed for all React components
 import React from "react";
 
-// TODO 1.0: Read the followin instructions
+// TODO 1.0: Read the following instructions
 // 1. In the components folder, create a new file called yournameCard.js
 // 2. Copy the code from starterCode.js into yournameCard.js
 // 3. Put your name in the function name (i.e. yourNameCard)
