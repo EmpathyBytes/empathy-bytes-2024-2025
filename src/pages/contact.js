@@ -7,10 +7,10 @@ function ContactPage() {
   // Define email handlers as an object
   const emailHandlers = {
     Alison: "alison.valk@library.gatech.edu",
-    App: "mempel3@gatech.edu",
-    VR: "troth7@gatech.edu",
-    Media: "jacqueline7@gatech.edu",
-    Website: "ecraven6@gatech.edu",
+    App: "genesis@gatech.edu",
+    VR: "jenglish38@gatech.edu",
+    Media: "cyin62@gatech.edu",
+    Website: "jsamuel36@gatech.edu",
   };
 
   // Handle email button click
@@ -20,18 +20,21 @@ function ContactPage() {
 
   return (
     <Layout>
-      <div className="container-contact">
+      <div>
+        <div className="container-contact">
         <main>
           <div className="top-contact dim"></div>
           <div className="bottom-contact">
             <img src={All} className="contact-full"></img>
           </div>
-          <div className="headerStyles">
+          
+          <section className="contactSection">
+            <div className="headerStyles">
             <h1>
               <span className="centerStyles">Interested in Learning More About Empathy Bytes?</span>
             </h1>
-          </div>
-          <div className="button-container">
+            </div>
+            <div className="button-container">
             {Object.keys(emailHandlers).map((key) => (
               <div className="centerStyles" key={key}>
                 <label className="labelStyle">
@@ -40,14 +43,14 @@ function ContactPage() {
                     type="button"
                     onClick={() => handleEmailButtonClick(key)}
                   >
-                    {`Contact our ${
-                      key === "Alison" ? "VIP coordinator" : `Team Lead for ${key}`
-                    }`}
+                    {`Contact our ${key === "Alison" ? "VIP coordinator" : `Team Lead for ${key}`
+                      }`}
                   </button>
                 </label>
               </div>
             ))}
-          </div>
+            </div>
+          </section>
           {/* <div className="centerStyles">
             <label className="labelStyle">
               <a href="#info">
@@ -60,8 +63,8 @@ function ContactPage() {
             </label>
           </div> */}
         </main>
-      </div>
-      <div id="info">
+        </div>
+       <div id="info">
         <div className="info-section">
           <h1>Frequently Asked Questions</h1>
           <div class="container">
@@ -69,8 +72,8 @@ function ContactPage() {
               <details>
                 <summary>How do I apply?<span><i class="fa-solid fa-caret-down"></i></span></summary>
                 <p>To register for a VIP at Georgia Tech as an undergraduate, please follow this link{" "} <a href="https://www.vip.gatech.edu/apply-undergraduate-students">
-              https://www.vip.gatech.edu/apply-undergraduate-students
-            </a></p>
+                  https://www.vip.gatech.edu/apply-undergraduate-students
+                </a></p>
               </details>
               <details>
                 <summary>Can I be on many teams?<span><i class="fa-solid fa-caret-down"></i></span></summary>
@@ -86,6 +89,7 @@ function ContactPage() {
               </details>
             </section>
           </div>
+        </div>
         </div>
       </div>
     </Layout>

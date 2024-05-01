@@ -9,6 +9,7 @@
   --secondary-color: #789beb;
   --text-color: #ffffff;
 }
+
 /* .top-contact {
   width: 100vw;
   height: 80vw;
@@ -31,6 +32,7 @@
 .padding-bottom-contact {
   padding-bottom: 5%;
 }
+
 .bottom-contact {
   /* position: relative; */
   z-index: -10;
@@ -40,16 +42,27 @@
   width: 100vw;
   max-width: 100%;
   height: 100vh;
-  margin-top: 50px;
+  margin-top: 20px;
   display: flex;
+  flex-direction: column;
   justify-content: center;
   align-items: center;
   background-color: #004B87;
 }
 
+.contactSection {
+  display: flex;
+  z-index: 20;
+  flex-direction: column;
+  background-color: #003057;
+  margin: 50px 200px 0px 200px;
+  padding: 25px;
+  border-radius: 40px;
+}
+
 .heading-styles {
   font-family: 'Roboto Slab', serif;
-  font-size: 4vw;
+  font-weight: bold;
   text-align: center;
   position: absolute;
   top: 50%;
@@ -58,41 +71,58 @@
 }
 
 .centerStyles {
+  font-family: 'Roboto Slab', serif;
+  font-size: 2vw;
   display: flex;
   justify-content: center;
   align-items: center;
-  margin-bottom: 10px;
+  margin-bottom: 30px;
 }
 
 .button {
-  background-color: var(--secondary-color);
+  background-color: #004B87;
   font-size: 1rem;
   cursor: pointer;
   transition: background-color 0.3s, transform 0.3s;
   color: var(--text-color);
 }
 
+.blobs {
+    display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
+
 .button:hover {
-  background-color: #003057;
+  background-color: var(--primary-color);
   transform: scale(1.05);
 }
 
 .button-container {
-  height: 500px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
 }
+
 .arrows {
   margin-top: 50px;
 }
 
 #info .info-section {
-  background-color: #003057; /* Change to your desired background color */
-  margin: 0px 150px 0px 150px;
-  padding: 25px; /* Add padding or other styling as needed */
+  background-color: #003057;
+  /* Change to your desired background color */
+  margin: 150px 150px 0px 150px;
+  padding: 25px;
+  border-radius: 40px;
+  /* Add padding or other styling as needed */
   /* Center-align the text */
 }
 
 #info {
   padding: 50px;
+  z-index: 20;
   background-color: #004B87;
   /* padding-bottom: 400px; */
   text-align: center;
@@ -124,21 +154,24 @@ a:active {
 }
 
 
-body{
+body {
   background: #22232e;
 }
-.container{
+
+.container {
   padding-bottom: 70px;
   display: flex;
   align-items: top;
   justify-content: center;
   /* min-height: 100vh; */
 }
-.container section{
+
+.container section {
   width: 600px;
   margin-top: -100px;
 }
-.container section details summary{
+
+.container section details summary {
   padding: 15px;
   background: #e0ffff;
   color: #22232e;
@@ -148,16 +181,19 @@ body{
   cursor: pointer;
   font-size: 20px;
 }
-.container section details{
+
+.container section details {
   margin: 15px;
 }
-.container section details p{
+
+.container section details p {
   font-size: 15px;
   padding: 10px;
   color: #333;
   background: #e0ffff;
 }
-.container section details summary span{
+
+.container section details summary span {
   font-size: 22px;
   color: #333;
   float: right;
