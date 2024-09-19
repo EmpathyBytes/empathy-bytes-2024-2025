@@ -10,6 +10,7 @@ import HusnaCard from "../components/husnaCard";
 
 // TODO 2.0: Import your card component below using the same syntax as the JoshCard import
 import MackenzieCard from "../components/mackenzieCard";
+import tiffanyCard from "../components/tiffanyCard";
 
 
 function PracticePage() {
