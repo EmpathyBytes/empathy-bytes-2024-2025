@@ -28,7 +28,7 @@ function PracticePage() {
             <MackenzieCard />
             <HusnaCard />
             {/* TODO 3.0: Add your card component below using the same syntax as the JoshCard component */}
-          
+            <tiffanyCard />
           </div>
         </main>
       </div>
