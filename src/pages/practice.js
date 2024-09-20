@@ -11,6 +11,7 @@ import TylerCard from "../components/tylerCard"
 
 // TODO 2.0: Import your card component below using the same syntax as the JoshCard import
 import MackenzieCard from "../components/mackenzieCard";
+import tiffanyCard from "../components/tiffanyCard";
 
 
 function PracticePage() {
@@ -29,7 +30,7 @@ function PracticePage() {
             <HusnaCard />
             <TylerCard />
             {/* TODO 3.0: Add your card component below using the same syntax as the JoshCard component */}
-          
+            <tiffanyCard />
           </div>
         </main>
       </div>
