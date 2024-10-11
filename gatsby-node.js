@@ -1,9 +1,9 @@
 const path = require('path');
 
 exports.onCreateWebpackConfig = ({
-  // rules,
-  // loaders,
-  // plugins,
+  rules,
+  loaders,
+  plugins,
   actions
 }) => {
   actions.setWebpackConfig({
