@@ -3,13 +3,8 @@
 import React from "react";
 import Layout from "../components/layout";
 import Banner from "../images/experiences/appTeamHeader.png";
-
-
 import Grid from '@mui/material/Grid';
-
 import MockUp from "../images/experiences/appMockUp.png"
-
-
 import "../styles/experiencesIndividual.css"
 import "../styles/all.css"
 

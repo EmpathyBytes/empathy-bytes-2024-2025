@@ -1,14 +1,12 @@
 import React, { useState } from "react"
 import Layout from "../components/layout" // importing the navbar and footer
 import All from "../images/people/fullTeam.jpg" // importing the full team picture
-// import { Link } from "gatsby"
 import { graphql } from "gatsby";
 import "../styles/about.css"
 import "../styles/all.css"
 import AboutComponent from "../components/aboutComponent" // everything relating to the images
-
 import Grid from '@mui/material/Grid';
-import { Divider } from "@mui/material";
+
 
 function AboutPage({ data }) {
 
@@ -24,7 +22,7 @@ function AboutPage({ data }) {
   const emergingMembers = data.emergingTechTeam.relationships.node__team_members;
   const mediaMembers = data.mediaTeam.relationships.node__team_members;
 
-
+  // toggles when button for each team is pressed
   function toggleEmerging() {
     setToggleEmerging(true);
     setToggleWeb(false);
@@ -49,6 +47,8 @@ function AboutPage({ data }) {
     setToggleMedia(false);
     setToggleApp(true);
   }
+
+  // The About page itsef
 
   return (
     <Layout>

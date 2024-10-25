@@ -62,7 +62,7 @@ const ProjectsPage = ({data}) => {
                     <div className="projectsContainer">
                         <h1 className="projectsTitle">Interview Collections</h1>
 
-                            {/* Div that contains the navbar */}
+                            {/* Div that contains the navbar (start)*/}
                             <div className="project-nav" style={{ paddingTop: 25, paddingBottom: 25 }}>
                             <Grid container spacing={2} className="project-navBG">
 
@@ -104,7 +104,7 @@ const ProjectsPage = ({data}) => {
 
                             </Grid>
                             </div>
-                            {/* Div that contains the navbar */}
+                            {/* Div that contains the navbar (end)*/}
 
                         <Grid container spacing={3}>
                         {arr.map((item) => ( // Mapping collection data to card component
