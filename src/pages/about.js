@@ -48,7 +48,7 @@ function AboutPage({ data }) {
     setToggleApp(true);
   }
 
-  // The About page itsef
+  // The About page itself
 
   return (
     <Layout>
@@ -62,7 +62,9 @@ function AboutPage({ data }) {
         <div style={{ padding: "2% 5% 1% 5%" }}>
           <div className="about-card">
             <h1 className="header-about">About Us</h1>
-            <p className="paragraph-about">
+
+            {/* The content for About Us */}
+            <p className="paragraph-about"> 
               Empathy Bytes VIP explores how multimedia and emerging technologies can enhance empathy and understanding as we
               create digital scholarship. This VIP section looks to document the stories of diverse communities in Georgia and beyond.
               The team explores how technology can enhance empathy, as well as improve access to resources. Most importantly, the students on
@@ -77,6 +79,8 @@ function AboutPage({ data }) {
               Current technologies being used include: React, GatsbyJS, Drupal, and GraphQL the web team, the Adobe Creative Suite for the Media team.
               Unity and Blender for the Emerging Tech team, and Swift for the App team.
             </p>
+            {/*  */}
+
           </div>
         </div>
 
@@ -114,12 +118,16 @@ function AboutPage({ data }) {
         </div>
 
 
-        {/* The section that contains emerging tech information */}
+        {/* The section that contains emerging tech information 
+        TODO: try not to use the actual links (on learnmore) since it makes it hard to navigate locally when updating design
+              instead just change the end of the current url (like using href, link, etc)*/}
         <div id="about-emerging" className="emerging-tech-about" style={{ display: visEmerging ? 'block' : 'none' }}>
           <AboutComponent
             subteam={"Emerging Tech"}
             members={emergingMembers}
             about={"The emerging tech team is comprised of students from a variety of different backgrounds and majors, including Computational Media and Computer Science. The team focuses on exploring cutting edge technologies and their ability to create empathy."}
+            
+            // Change this 
             learnMore={"https://educast.library.gatech.edu/emergingtech/"}
           />
         </div>
@@ -158,6 +166,8 @@ function AboutPage({ data }) {
     </Layout>
   );
 }
+
+// GraphQL queries necessary for this page (members)
 
 export const query = graphql`
     query {

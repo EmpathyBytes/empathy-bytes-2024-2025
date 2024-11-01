@@ -11,6 +11,8 @@ import Grid from '@mui/material/Grid';
 import "../styles/experiencesIndividual.css";
 import "../styles/all.css";
 
+// TODO: Improve/Update design and implementation (Fall 2024)
+
 function web() {
     return(
         <Layout>
@@ -19,6 +21,7 @@ function web() {
             </div>
             <div className="full-container-experiences">
 
+                {/* What the Web Tram does */}
                 <Grid container spacing={0}>
 
                     <Grid item xs={12}>
@@ -59,6 +62,7 @@ function web() {
 
                 <div className="divider"></div>
 
+                {/* TODO: Update to current (Consider querying so you can just update video on Drupal and not always change the yt link) */}
                 <Grid container spacing={2}>
                     <Grid xs={12} sm={12} item className="right-align-experiences" alignItems="center" justifyContent="center" direction="column">
                         <h1 className="sub-header-experiences">Spring 2023 Progress</h1>

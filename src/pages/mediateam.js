@@ -9,6 +9,7 @@ import Grid from '@mui/material/Grid';
 import "../styles/experiencesIndividual.css"
 import "../styles/all.css"
 
+// TODO: Improve/Update design and implementation (Fall 2024)
 function Media() {
     return(
         <Layout>
@@ -17,8 +18,7 @@ function Media() {
             </div>
             <div className="full-container-experiences">
 
-
-
+                {/* What the media team does */}
                 <Grid container spacing={0}>
                 <Grid item xs={12}>
                         <div className="blue-box">
@@ -32,7 +32,8 @@ function Media() {
                     </Grid>
                             
                 </Grid>
-
+                
+                {/* About the interviews Media team conducts */}
                 <div className="divider"></div>
                 <Grid container alignItems="right" spacing={3} className="grid-margins-experiences">
                     <Grid item xs={12} className="right-align-experiences">
@@ -47,6 +48,7 @@ function Media() {
 
                     <Grid item xs={0} sm={5}></Grid> 
 
+            {/* TODO: Update to current (Consider querying so you can just update video on Drupal and not always change the yt link) */}
                     <Grid xs={12} sm={12} alignItems="center" justifyContent="center" direction="column">
                             <iframe src="https://www.youtube.com/embed/caa4VsEymFU" 
                                 title="YouTube video player" frameborder="0" 

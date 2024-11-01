@@ -8,6 +8,13 @@ import MockUp from "../images/experiences/appMockUp.png"
 import "../styles/experiencesIndividual.css"
 import "../styles/all.css"
 
+
+// This is the page that pops up for if you want to learn more about the APP TEAM
+// (after clicking learn more button in About page)
+
+// TODO: Improve/Update the design and implementation (FAll 2024)
+//       Also, try to utilize cards (like those in components)
+
 function App() {
     return(
         <Layout>
@@ -18,9 +25,9 @@ function App() {
 
                 <Grid container spacing={0}>
 
-
+                    {/* What the App Team does */}
                     <Grid item xs={12}>
-                        <div className="blue-box">
+                        <div className="blue-box"> 
                             <p>
                                 Our team is currently developing a mobile application compatible with iOS devices using Swift and Xcode to showcase 
                                 our research and interactions with communities. We hope to explore a variety of ways to use multimedia and Mixed Reality 
@@ -32,6 +39,8 @@ function App() {
 
             <div className="divider"></div>
 
+
+            {/* What the app actually does */}
             <div className="grid-margins-experiences">
                 <Grid container spacing={2} className="bg-1">
                     <Grid xs={4} container className="" alignItems="center" justifyContent="center">
@@ -50,6 +59,9 @@ function App() {
                     </Grid>
                     <Grid xs={4} container className="" alignItems="center" justifyContent="center">
                     <div style={{ transform: 'scale(0.8)'}}>
+
+                    {/* TODO: Update to current year (Consider querying so you can just update video on Drupal and not always change the yt link)*/}
+                    {/* Youtube vid for app team demo */}
                     <h1 className="grid-margins-experiences" style={{ fontSize: '1.8rem'}} >Spring 2023 Progress</h1>
                         <iframe width="60" height="180" src="https://www.youtube.com/embed/zYQYxpvwx8U" 
                             title="App Team Demo Spring 2023" frameborder="0" 

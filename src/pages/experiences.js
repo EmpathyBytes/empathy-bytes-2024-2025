@@ -20,10 +20,10 @@ import App from "../images/experiences/app.png"
 import Web from "../images/experiences/web.png"
 import Media from "../images/experiences/mediaBTS.jpg"
 
-
+// TODO: Consider creating a teamcard (like those from components) (Fall 2024)
 function ExperiencesPage() {
   const matches = useMediaQuery('(min-width:600px)');
-  if (matches) {
+  if (matches) { // is on desktop
     return (
       <Layout>
         <div className="container-experiences-homepage">
@@ -99,7 +99,7 @@ function ExperiencesPage() {
         </div>
       </Layout>
     );
-  } else {
+  } else { // is on mobile
     return (
       <Layout>
         <div className="container-experiences-homepage">

@@ -17,7 +17,8 @@ import Grid from '@mui/material/Grid';
 import "../styles/experiencesIndividual.css"
 import "../styles/all.css"
 
-
+// TODO: Improve/Update designs and implementation (Fall 2024)
+//       Update to call it the VR Team
 function EmergingTech() {
     return(
         <Layout>
@@ -53,7 +54,7 @@ function EmergingTech() {
 
                 <div className="divider"></div>
 
-
+                {/* What the VR Team is developing */}
                 <Grid container alignItems="right" spacing={3} className="grid-margins-experiences">
                     <Grid item xs={12} className="right-align-experiences">
                         <h1 className="sub-header-experiences">The VR Archives</h1>
@@ -72,6 +73,7 @@ function EmergingTech() {
                     </Grid>
                 </Grid>
 
+            {/* 3D MODELS */}
                 <Grid container spacing={0} alignItems="flex-end">
                     {/* Loading 3D Models */}
                     <Grid sm={6} xs={12} item>
@@ -125,7 +127,8 @@ function EmergingTech() {
 
                 <div className="divider"></div>
 
-
+                {/* TODO: Update to current (Consider querying so you can just update video on Drupal and not always change the yt link)
+                 (Fall 2024) */}
                 <Grid container spacing={2} className="" style={{padding: "2% 0 2% 0"}} alignItems={'center'}>
                     <Grid xs={12} item className="right-align-experiences">
                         <h1 className="sub-header-experiences">Spring 2023 Progress</h1>

@@ -2,6 +2,15 @@ import * as React from "react"
 import { Link } from "gatsby"
 import "../styles/inProgress.css";
 
+
+// This page is not currently used as the actual 404 page for some reason atm
+
+// TODO: move stylings to a separate css file and update / actually implement the design of the 404 page
+
+// These are basically the css styling for 404 page
+// but they were commented out previously
+// (Fall 2024 comment)
+
 // const pageStyles = {
 //   color: "#232129",
 //   padding: "96px",
