@@ -89,8 +89,10 @@ function EmergingTech() {
                                     <BuzzPlaque scale={20} />
     
                                     {/*PLEASE READ (6/10/2023)
-                                        There is a compatibility issue with this Environment component and the new version of three.js, I think it should be resolved soon though.
-                                        For now, I have inlcuded an ambientLight component instead. When this issue is resolved, feel free to add the Environment component back in.
+                                        There is a compatibility issue with this Environment component and the new version of three.js, 
+                                        I think it should be resolved soon though.
+                                        For now, I have inlcuded an ambientLight component instead. When this issue is resolved, 
+                                        feel free to add the Environment component back in.
                                     - Jacob Amin */}
     
                                     {/* <Environment /> */}

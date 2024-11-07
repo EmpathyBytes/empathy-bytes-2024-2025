@@ -21,7 +21,7 @@ function web() {
             </div>
             <div className="full-container-experiences">
 
-                {/* What the Web Tram does */}
+                {/* What the Web Team does */}
                 <Grid container spacing={0}>
 
                     <Grid item xs={12}>
