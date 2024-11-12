@@ -5,8 +5,10 @@ import "../styles/inProgress.css";
 
 // This page is not currently used as the actual 404 page for some reason atm
 
-// TODO: move stylings to a separate css file and update / actually implement the design of the 404 page
+// TODO: move the approriate css files (found in inProgress.css) to a properly named one
+// and IMPLEMENT the design of the 404 page
 
+// Also delete this below
 // These are basically the css styling for 404 page
 // but they were commented out previously
 // (Fall 2024 comment)
