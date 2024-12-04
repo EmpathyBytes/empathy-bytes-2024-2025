@@ -63,7 +63,7 @@ const ProjectsPage = ({data}) => {
                         <h1 className="projectsTitle">Interview Collections</h1>
 
                             {/* Div that contains the navbar */}
-                            <div className="project-nav" style={{ paddingTop: 25, paddingBottom: 25 }}>
+                            {/* <div className="project-nav" style={{ paddingTop: 25, paddingBottom: 25 }}>
                             <Grid container spacing={2} className="project-navBG">
 
                                 <Grid xs={1}>
@@ -103,7 +103,7 @@ const ProjectsPage = ({data}) => {
                                 </Grid>
 
                             </Grid>
-                            </div>
+                            </div> */}
                             {/* Div that contains the navbar */}
 
                         <Grid container spacing={3}>
