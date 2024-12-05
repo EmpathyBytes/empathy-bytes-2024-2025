@@ -6,7 +6,6 @@ import "../styles/all.css"
 
 import splash1 from "../images/homepage/splash1.jpg"
 import splash2 from "../images/homepage/splash2.jpg"
-import teampic from "../images/homepage/teampic.jpg"
 
 // import webicon from "../images/subteam-icons/webteambordered.png"
 // import mediaicon from "../images/subteam-icons/mediateambordered.png"
@@ -55,7 +54,7 @@ function IndexPage() {
         <div id="info" className="info">
           <div className="info-wrapper">
               <div className="image">
-                <img src={teampic} className="teampic" alt="EB Team"></img>
+                <img src={'https://empathybytes.library.gatech.edu/sites/default/files/hg_images/2024-12/Team_Fall_2024.JPG'} className="teampic" alt="EB Team"></img>
               </div>
               <div className="info-card">
                 <InfoCard 
@@ -104,7 +103,7 @@ function IndexPage() {
         <div id="info" className="info">
           <div className="info-wrapper">
               <div className="image">
-                <img src={teampic} className="teampic" alt="EB Team"></img>
+                <img src={'https://empathybytes.library.gatech.edu/sites/default/files/hg_images/2024-12/Team_Fall_2024.JPG'} className="teampic" alt="EB Team"></img>
               </div>
               <div className="info-card">
                 <InfoCard 
