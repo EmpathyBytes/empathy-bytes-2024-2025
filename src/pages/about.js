@@ -51,7 +51,7 @@ function AboutPage({ data }) {
 
   return (
     <Layout>
-      <div className="top-banner" style={{backgroundImage: `linear-gradient(to top, rgba(0, 0, 0, 1), rgba(0, 0, 0, 0.1)), url(https://empathybytes.library.gatech.edu/sites/default/files/hg_images/2024-12/Team_Fall_2024.JPG)`}}>
+      <div className="top-banner" style={{backgroundImage: `linear-gradient(to top, rgba(0, 0, 0, 0.75), rgba(0, 0, 0, 0)), url(https://empathybytes.library.gatech.edu/sites/default/files/hg_images/2024-12/Team_Fall_2024.JPG)`}}>
                 <h1 className="header-experiences">About Us</h1>
       </div>
       <div className="a-c-full">
