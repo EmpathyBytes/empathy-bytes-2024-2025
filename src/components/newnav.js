@@ -71,7 +71,7 @@ function Newnav({ transparent }) {
                   </Link>
                   {/* Experiences page */}
                   <Link to={"/experiences"}>
-                    <h3 className="pages">Experiences</h3>
+                    <h3 className="pages">Teams</h3>
                   </Link>
                   {/* About page */}
                   <Link to={"/about"}>
