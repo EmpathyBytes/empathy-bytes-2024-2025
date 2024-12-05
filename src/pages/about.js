@@ -51,11 +51,8 @@ function AboutPage({ data }) {
 
   return (
     <Layout>
-      <div className="top-about dim">
-        {/* <h1>About Us</h1> */}
-      </div>
-      <div className="bottom-about">
-        <img src={All} className="about-full"></img>
+      <div className="top-banner" style={{backgroundImage: `linear-gradient(to top, rgba(0, 0, 0, 1), rgba(0, 0, 0, 0.1)), url(https://empathybytes.library.gatech.edu/sites/default/files/hg_images/2024-12/Team_Fall_2024.JPG)`}}>
+                <h1 className="header-experiences">About Us</h1>
       </div>
       <div className="a-c-full">
         <div style={{ padding: "2% 5% 1% 5%" }}>
