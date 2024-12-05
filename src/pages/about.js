@@ -57,7 +57,7 @@ function AboutPage({ data }) {
       <div className="a-c-full">
         <div style={{ padding: "2% 5% 1% 5%" }}>
           <div className="about-card">
-            <h1 className="header-about">About Us</h1>
+            <h1 className="header-about">What is Empathy Bytes?</h1>
             <p className="paragraph-about">
               Empathy Bytes VIP explores how multimedia and emerging technologies can enhance empathy and understanding as we
               create digital scholarship. This VIP section looks to document the stories of diverse communities in Georgia and beyond.
