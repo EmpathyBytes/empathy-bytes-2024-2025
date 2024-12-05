@@ -2,7 +2,6 @@
 
 import React from "react";
 import Layout from "../components/layout";
-import Banner from "../images/experiences/mediaTeamHeader.png";
 
 import Grid from '@mui/material/Grid';
 
@@ -13,7 +12,7 @@ function Media() {
     return(
         <Layout>
             <title>Media Team</title>
-            <div className="top-banner" style={{backgroundImage: `linear-gradient(to bottom, rgba(0, 0, 0, 1), rgba(0, 0, 0, 0.5)), url(${Banner})`}}>
+            <div className="top-banner" style={{backgroundImage: `linear-gradient(to bottom, rgba(0, 0, 0, 1), rgba(0, 0, 0, 0.5)), url(https://empathybytes.library.gatech.edu/sites/default/files/hg_images/2024-12/Media_Fall_2024.JPG)`}}>
                 <h1 className="header-experiences">Media Team</h1>
             </div>
             <div className="full-container-experiences">
