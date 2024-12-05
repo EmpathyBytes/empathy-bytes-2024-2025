@@ -21,9 +21,9 @@ import "../styles/all.css"
 function EmergingTech() {
     return(
         <Layout>
-            <title>Emerging Tech Team</title>
+            <title>VR Team</title>
             <div className="top-banner" style={{backgroundImage: `linear-gradient(to bottom, rgba(0, 0, 0, 1), rgba(0, 0, 0, 0.5)), url(${Banner})`}}>
-                <h1 className="header-experiences">Emerging Technologies Team</h1>
+                <h1 className="header-experiences">VR Team</h1>
             </div>
             <div className="full-container-experiences">
                 {/* <Grid container spacing={2} className="">
