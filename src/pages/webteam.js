@@ -14,7 +14,7 @@ function web() {
     return(
         <Layout>
             <title>Web Team</title>
-            <div className="top-banner" style={{backgroundImage: `linear-gradient(to bottom, rgba(0, 0, 0, 1), rgba(0, 0, 0, 0.5)), url(https://empathybytes.library.gatech.edu/sites/default/files/hg_images/2024-12/Web_Fall_2024.JPG)`}}>
+            <div className="top-banner" style={{backgroundImage: `linear-gradient(to top, rgba(0, 0, 0, 1), rgba(0, 0, 0, 0.1)), url(https://empathybytes.library.gatech.edu/sites/default/files/hg_images/2024-12/Web_Fall_2024.JPG)`}}>
                 <h1 className="header-experiences">Web Team</h1>
             </div>
             <div className="full-container-experiences">
