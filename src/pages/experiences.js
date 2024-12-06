@@ -27,6 +27,7 @@ function ExperiencesPage() {
     return (
       <Layout>
         <div className="container-experiences-homepage">
+          <h1 className="teamsTitle">Teams</h1>
           <Grid container spacing={4}
                 alignItems="center"
                 justifyContent="center">

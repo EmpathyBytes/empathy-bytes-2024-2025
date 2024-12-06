@@ -1,13 +1,22 @@
 @import "./fonts.css";
 
 .container-experiences-homepage {
-    padding-top: calc(var(--navbar-scrolled-height) + 10vh);
-    padding-bottom: 90px;
+    padding: 5% 2%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
     background-color: #004B87;
 }
 .container-half {
     position: relative;
     height: 95vh;
+    text-align: center;
+}
+
+.teamsTitle {
+    font-family: 'Roboto Slab', serif;
+    margin-bottom: 70px;
+    font-size: 40px;
     text-align: center;
 }
 
