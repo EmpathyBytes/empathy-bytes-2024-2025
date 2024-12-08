@@ -31,6 +31,38 @@ function ContactPage() {
               <span className="centerStyles">Interested in Learning More About Empathy Bytes?</span>
             </h1>
           </div>
+          <div className="form-container">
+            <div style={{fontSize: '20px', textAlign: 'center', margin: '20px'}}>Complete this form and one of our team leads will reach out to you shortly!</div>
+            <div className="form-inner-container">
+              <div className="row-section">
+                <div className="left-section">
+                  <div className= "field-container">
+                    <div className="field-title">First Name</div> 
+                    <div className="field-entry"></div>
+                  </div>
+                </div>
+                <div className="right-section">
+                  <div className="field-container">
+                    <div className="field-title">Last Name</div> 
+                    <div className="field-entry"></div>
+                  </div>
+                </div>
+              </div>
+              <div className="row-section">
+                <div className="field-container" style={{width: '100%', marginLeft: '10%'}}>
+                    <div className="field-title">Email</div> 
+                    <div className="field-entry"></div>
+                </div>
+              </div>
+              <div className="row-section">
+                <div className="field-container" style={{width: '100%', marginLeft: '10%'}}>
+                    <div className="field-title">Message</div> 
+                    <div className="field-entry" style={{width: '85%', height: '150px'}}></div>
+                </div>
+              </div>
+              <button className="form-button">Submit</button>
+            </div>
+          </div> 
           <div className="button-container">
             {Object.keys(emailHandlers).map((key) => (
               <div className="centerStyles" key={key}>
