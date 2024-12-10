@@ -58,7 +58,7 @@ function ExperiencesPage() {
                       image={EmergingTech}
                       alt="Emerging Tech"
                     />
-                    <h1 className="text-experience">Emerging Tech</h1>
+                    <h1 className="text-experience">VR</h1>
                   </CardActionArea>
                 </Card>
               </Link>
