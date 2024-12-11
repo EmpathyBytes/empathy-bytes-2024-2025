@@ -31,8 +31,10 @@ function ContactPage() {
               <span className="centerStyles">Interested in Learning More About Empathy Bytes?</span>
             </h1>
           </div>
+          {/* this is the outer dark blue container for the contact form */}
           <div className="form-container">
-            <div style={{fontSize: '20px', textAlign: 'center', margin: '20px'}}>Complete this form and one of our team leads will reach out to you shortly!</div>
+            <div style={{fontSize: '25px', textAlign: 'center', marginLeft: '10%', marginRight: '10%'}}>Complete this form and one of our team leads will reach out to you shortly!</div>
+            {/* this is the inner white container for the contact form (contains fields) */}
             <div className="form-inner-container">
               <div className="row-section">
                 <div className="left-section">
