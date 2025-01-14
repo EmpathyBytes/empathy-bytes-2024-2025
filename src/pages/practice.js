@@ -21,19 +21,12 @@ function PracticePage() {
       <div className="cardWrapper">
         <main>
           <div className="cards">
+
+            {/* TODO 3.0: Add your card component below using the same syntax as the JoshCard and AmaraCard component */}
+
             <JoshCard />
             <AmaraCard />
-            <RayannCard />
-            <HebeCard />   
 
-            <DianaCard/>
-            
-            <JulianCard />
-            <MackenzieCard />
-            <HusnaCard />
-            <TylerCard />
-            {/* TODO 3.0: Add your card component below using the same syntax as the JoshCard component */}
-            <tiffanyCard />
           </div>
         </main>
       </div>

@@ -6,7 +6,7 @@ import React from "react";
 // 2. Copy the code from starterCode.js into yournameCard.js
 // 3. Put your name in the function name (i.e. yourNameCard)
 // 4. Add your own code to the function
-// 5. Add your component to the practice.js file
+// 5. Add your component to the practice.js file that is in the pages folder
 // 6. Once you're done with TODO 1.0, go to practice.js and complete TODO 2.0 and TODO 3.0
 
 export default function yourNameCard() {
