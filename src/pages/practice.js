@@ -13,6 +13,7 @@ import DianaCard from "../components/dianaCard";
 import KellyCard from "../components/kellyCard";
 import MackenzieCard from "../components/mackenzieCard";
 import tiffanyCard from "../components/tiffanyCard";
+import DamodarCard from "../components/damodarCard"
 
 
 function PracticePage() {
@@ -28,6 +29,7 @@ function PracticePage() {
             <JoshCard />
             <AmaraCard />
             <KellyCard />
+            <DamodarCard/>
 
           </div>
         </main>
