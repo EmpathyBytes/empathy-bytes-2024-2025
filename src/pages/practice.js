@@ -14,6 +14,7 @@ import KellyCard from "../components/kellyCard";
 import MackenzieCard from "../components/mackenzieCard";
 import tiffanyCard from "../components/tiffanyCard";
 import DamodarCard from "../components/damodarCard"
+import MishaCard from "../components/mishaCard";
 
 
 function PracticePage() {
@@ -30,6 +31,7 @@ function PracticePage() {
             <AmaraCard />
             <KellyCard />
             <DamodarCard/>
+            <MishaCard/>
 
           </div>
         </main>
