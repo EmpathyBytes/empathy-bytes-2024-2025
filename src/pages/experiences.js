@@ -29,6 +29,7 @@ function ExperiencesPage() {
       <Layout>
         <ScrollToTop/>
         <div className="container-experiences-homepage">
+          <h1 className="teamsTitle">Teams</h1>
           <Grid container spacing={4}
                 alignItems="center"
                 justifyContent="center">
@@ -59,7 +60,7 @@ function ExperiencesPage() {
                       image={EmergingTech}
                       alt="Emerging Tech"
                     />
-                    <h1 className="text-experience">Emerging Tech</h1>
+                    <h1 className="text-experience">VR</h1>
                   </CardActionArea>
                 </Card>
               </Link>
