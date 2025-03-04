@@ -103,11 +103,11 @@ jobs:
     steps:
       - name: Deploy PR Preview
         if: github.event_name == 'pull_request'
-        uses: JamesIves/github-pages-deploy-action@v4
+        uses: actions/deploy-pages@v4
         with:
-          branch: gh-pages
-          folder: public
-          target-folder: ${{ github.head_ref }}
+          github_token: ${{ secrets.GITHUB_TOKEN }}
+          publish_dir: ./public
+          target_branch: gh-pages
           
       - name: Deploy Main Site
         id: deployment
