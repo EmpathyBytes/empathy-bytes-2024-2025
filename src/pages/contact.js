@@ -2,6 +2,7 @@ import React from "react";
 import Layout from "../components/layout";
 import All from "../images/people/fullTeam.jpg"
 import "../styles/contactPage.css";
+import splash1 from "../images/homepage/splash1.jpg"
 
 function ContactPage() {
   // Define email handlers as an object
@@ -20,12 +21,15 @@ function ContactPage() {
 
   return (
     <Layout>
+      <div className="top-banner" style={{backgroundImage: `linear-gradient(to top, rgba(0, 0, 0, 0.75), rgba(0, 0, 0, 0)), url(${splash1})`}}>
+          <h1 className="header-experiences">Contact Us</h1>
+      </div>
       <div className="container-contact">
         <main>
           <div className="top-contact dim"></div>
-          <div className="bottom-contact">
-            <img src={All} className="contact-full"></img>
-          </div>
+          {/* <div className="bottom-contact">
+            <img src={splash1} className="contact-full"></img>
+          </div> */}
           <div className="headerStyles">
             <h1>
               <span className="centerStyles">Interested in Learning More About Empathy Bytes?</span>
