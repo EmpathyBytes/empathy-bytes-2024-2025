@@ -51,16 +51,13 @@ function AboutPage({ data }) {
 
   return (
     <Layout>
-      <div className="top-about dim">
-        {/* <h1>About Us</h1> */}
-      </div>
-      <div className="bottom-about">
-        <img src={All} className="about-full"></img>
+      <div className="top-banner" style={{backgroundImage: `linear-gradient(to top, rgba(0, 0, 0, 0.75), rgba(0, 0, 0, 0)), url(https://empathybytes.library.gatech.edu/sites/default/files/hg_images/2024-12/Team_Fall_2024.JPG)`}}>
+                <h1 className="header-experiences">About Us</h1>
       </div>
       <div className="a-c-full">
         <div style={{ padding: "2% 5% 1% 5%" }}>
           <div className="about-card">
-            <h1 className="header-about">About Us</h1>
+            <h1 className="header-about">What is Empathy Bytes?</h1>
             <p className="paragraph-about">
               Empathy Bytes VIP explores how multimedia and emerging technologies can enhance empathy and understanding as we
               create digital scholarship. This VIP section looks to document the stories of diverse communities in Georgia and beyond.
