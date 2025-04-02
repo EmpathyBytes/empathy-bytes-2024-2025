@@ -6,7 +6,6 @@
 
 .projectsTitle {
     font-family: 'Roboto Slab', serif;
-    
     text-align: center;
 }
 
@@ -67,4 +66,19 @@
     top: 50px;
     margin: auto;
     justify-content: center;
+}
+
+/* for mobile view container */
+
+.responsiveCardsContainer {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 2%; /* Space between cards */
+    padding: 1%;
+}
+
+.responsiveCardsContainer > * {
+    flex: 1 1 calc(100% - 32px); /* Default to full width */
+    max-width: 100%; /* Prevent overflow */
 }

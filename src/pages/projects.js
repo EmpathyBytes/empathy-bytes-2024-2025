@@ -108,18 +108,23 @@ const ProjectsPage = ({data}) => {
                             </div>
                             {/* Div that contains the navbar */}
 
-                        <Grid container spacing={3}>
-                        {arr.map((item) => ( // Mapping collection data to card component
-                            <Grid item xs={6}>
-                            <CollectionCard 
-                            title = {item.title}
-                            image = {item.relationships.field_image.uri.url}
-                            url = {item.path.alias}
-                            body = {item.body.summary}
-                            />
-                            </Grid> // This is a MUI grid.
-                        ))}
-                        </Grid>
+                        <div className="projectsDesktop">
+                            <Grid container spacing={2}>
+                            {arr.map((item) => ( // Mapping collection data to card component
+                                <Grid item xs={12} md={6} lg={6}>
+                                    <div className="collectionCardContainer">
+                                        <CollectionCard 
+                                            title={item.title}
+                                            image={item.relationships.field_image.uri.url}
+                                            url={item.path.alias}
+                                            body={item.body.summary}
+                                        />
+                                    </div>
+                                </Grid>
+                            ))}
+                            </Grid>
+                        </div>
+            
                     </div>
                 </Layout>
             </div>
@@ -130,17 +135,17 @@ const ProjectsPage = ({data}) => {
                 <Layout>
                     <div className="projectsContainer">
                         <h1 className="projectsTitle">Interview Collections</h1>
-                        
-                        {arr.map((item) => ( // Mapping collection data to card component
-                            
-                            <CollectionCard 
-                            title = {item.title}
-                            image = {item.relationships.field_image.uri.url}
-                            url = {item.path.alias}
-                            />
-                            
-                        ))}
-            
+
+                        <div className="responsiveCardsContainer">
+                            {arr.map((item) => ( // Mapping collection data to card component
+                                <CollectionCard 
+                                    title={item.title}
+                                    image={item.relationships.field_image.uri.url}
+                                    url={item.path.alias}
+                                />
+                            ))}
+                        </div>
+
                     </div>
                 </Layout>
             </div>
