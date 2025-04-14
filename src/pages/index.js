@@ -69,6 +69,7 @@ function IndexPage() {
                   // btnTitle="Learn More"
                 />
               </div>
+              
             </div>
           </div>
 
