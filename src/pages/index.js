@@ -59,7 +59,7 @@ function IndexPage() {
               </div>
               <div className="info-card">
                 <InfoCard 
-                  title="What Is Empathy Bytes?"
+                  title="What Is TEMPORARY Bytes?"
                   body="Empathy Bytes is a student run research project focused on creating immersive technology and media centered around empathy. 
                   We think outside traditional modes of communication and documentation to create radical and unique experiences. Our research 
                   currently focuses on identifying and presenting distinct communities connected to Georgia Tech."
