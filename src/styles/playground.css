@@ -1,0 +1,129 @@
+@import "./fonts.css";
+
+* {
+  scroll-behavior: smooth;
+}
+
+:root {
+  --primary-color: #0779d7;
+  --secondary-color: #789beb;
+  --text-color: #ffffff;
+}
+
+.container-contact {
+  width: 100vw;
+  max-width: 100%;
+  height: 100vh;
+  margin-top: 50px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: #004B87;
+  flex-direction: column;
+}
+.container {
+  width: 100vw;
+  display: flex;
+  justify-content: left;
+  align-items: center;
+  background-color: #004B87;
+  flex-direction: column;
+}
+
+.heading-styles {
+  font-family: 'Roboto Slab', serif;
+  font-size: 4vw;
+  text-align: center;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  
+  
+}
+
+.centerStyles {
+  display: flex;
+  justify-content:space-around;
+  align-items: center;
+  margin-bottom: 10px;
+}
+
+.leftAlignStyles {
+    display: flex;
+    justify-content: left;
+    align-items: center;
+    margin-bottom: 10px;
+    animation: 7s alternate slide-in;
+    white-space: pre;
+  }
+
+
+h1, h2, h4, h5{
+  color: var(--text-color);
+  
+}
+
+p {
+  color: var(--text-color);
+  text-align: left;
+}
+
+
+
+.button-grid {
+  animation: 7s alternate slide-in;
+}
+
+@keyframes slide-in {
+  from {
+    translate: 150vw 0;
+    scale: 200% 1;
+  }
+
+  to {
+    translate: 0 0;
+    scale: 100% 1;
+  }
+}
+
+.horizontal-style {
+  display: flex;
+  flex-direction: row;
+  padding: 15px;
+  width: 80%;
+  overflow: auto;
+  white-space: nowrap;
+  border: 2px solid #ddd;
+}
+
+.horizontal-div {
+  display: flex;
+  flex-direction: row;
+  padding: 15px;
+  width: 80%;
+  overflow: auto;
+  white-space: nowrap;
+
+}
+
+.example-img {
+  margin-right: 20px;
+  margin-left: 20px;
+}
+
+.nav-grid {
+  display: flex;
+  flex-direction: row;
+  background-color: darkgoldenrod;
+  width: 80%;
+  text-align: center;
+  margin-left: 180px;
+
+  justify-content: center;
+  
+}
+
+.confetti-btn {
+  background-color: #004B87;
+}
