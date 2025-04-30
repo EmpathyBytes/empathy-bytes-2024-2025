@@ -64,21 +64,9 @@ function Newnav({ transparent }) {
             </Link>
           </div>
             <nav ref={navRef}>
-                  {/* Projects Page */}
-                  <Link to={"/projects"}>
-                    <h3 className="pages">Projects</h3>
-                  </Link>
-                  {/* Experiences page */}
-                  <Link to={"/experiences"}>
-                    <h3 className="pages">Experiences</h3>
-                  </Link>
-                  {/* About page */}
-                  <Link to={"/about"}>
-                    <h3 className="pages">About</h3>
-                  </Link>
                   {/* Contact page */}
-                  <Link to={"/contact"}>
-                    <h3 className="pages">Contact</h3>
+                  <Link to={"/playground"}>
+                    <h3 className="pages">Playground</h3>
                   </Link>
                   <button className="nav-btn nav-close-btn" onClick={showNavbar}>
                       <FaTimes/>
